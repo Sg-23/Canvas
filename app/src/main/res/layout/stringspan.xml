@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:scrollbars="vertical"
+    android:background="#ddee">
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        card_view:cardCornerRadius="4dp">
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Write here"
+    android:id="@+id/write"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view1"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="4dp"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/read"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:hint="View here"/>
+    </android.support.v7.widget.CardView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bold my string"
+        android:id="@+id/bold"
+        android:layout_gravity="center"
+        android:textAllCaps="false"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Style my string"
+        android:id="@+id/style"
+        android:layout_gravity="center"
+        android:textAllCaps="false"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Underline my string"
+        android:id="@+id/underline"
+        android:layout_gravity="center"
+        android:textAllCaps="false"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Strike my string"
+        android:id="@+id/strike"
+        android:layout_gravity="center"
+        android:textAllCaps="false"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="url my string"
+        android:id="@+id/url1"
+        android:layout_gravity="center"
+        android:textAllCaps="false"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SpannableBuilder string"
+        android:id="@+id/sb1"
+        android:layout_gravity="center"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
